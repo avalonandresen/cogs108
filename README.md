@@ -1,20 +1,6 @@
-This is your group repo for your final project for COGS108.
+Abstract
+Our report investigates the correlation between the frequency of emotionally supportive sentiment in user reviews and the average Google Play Store ratings for AI mental health chatbot applications. The study was motivated by the increasing demand for digital mental health support and the recognition that user reviews provide valuable insights into app effectiveness and user satisfaction. Prior research has highlighted the importance of sentiment analysis in understanding user feedback and its potential link to app ratings in various domains, including health and food delivery services. This research specifically defines emotionally supportive sentiment as expressions in reviews indicating users felt heard, understood, or emotionally uplifted by the app.
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+To explore this relationship, publicly available user review data from the Google Play Store for 20 distinct AI mental health chatbot applications was collected. The data collection focused on reviews from 2023 to the present to ensure relevance to current AI technology and societal views on mental health. Key variables extracted included review text, star ratings, likes, and review dates. The methodology involved web scraping using the Google Play Scraper API and subsequent data cleaning and processing with Python libraries such as pandas, seaborn, and vaderSentiment for sentiment analysis. Reviews shorter than three words and non-English reviews were excluded to enhance the quality of the sentiment analysis.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
-
-This repository will be frozen on the final project due date. No further changes can be made after that time.
-
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
-
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
-
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+It is hypothesized that a significant positive correlation exists between the frequency of emotionally supportive sentiment in user reviews and higher Google Play Store ratings. While the initial findings are based on a dataset of 17,479 reviews from 20 apps, this represents a comprehensive sample within the scope of this project, despite the limitation of not accounting for apps across multiple app store platforms. The insights gained from this analysis are intended to provide valuable guidance for developers aiming to enhance user satisfaction and improve app performance in the evolving mental health application sector; however, these findings are specific to the study's parameters, recognizing that their generalizability beyond this project's scope is not guaranteed or intended without further validation in broader contexts and diverse user populations.
